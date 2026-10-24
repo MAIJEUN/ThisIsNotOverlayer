@@ -1,0 +1,13 @@
+{
+	"schemaVersion": 1,
+	"id": "customhud-test",
+	"version": "1.0.0",
+	"name": "Custom HUD Tests",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": ["dev.customhud.test.HudEditorGameTest"]
+	},
+	"depends": {
+		"customhud": "*"
+	}
+}

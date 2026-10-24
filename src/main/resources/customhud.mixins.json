@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "dev.customhud.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"KeyboardHandlerMixin",
+		"MinecraftMixin",
+		"MouseHandlerMixin",
+		"GuiGraphicsAccessor",
+		"MultiLineEditBoxAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
